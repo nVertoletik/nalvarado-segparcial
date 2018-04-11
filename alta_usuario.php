@@ -20,20 +20,20 @@
 	<form action="alta.php" method="post">
 		<div class="rgba-primary-3">
 		Nombre:<br/>
-		<input type="text" name="nombre"><br/>
+		<input type="text" name="nombre" required><br/>
 		</div>
 		<div>Apellido paterno:<br/>
-		<input type="text" name="apellidoPaterno"><br/>
+		<input type="text" name="apellidoPaterno" required><br/>
 		</div>
 		<div>
 		Apellido materno:<br/>
-		<input type="text" name="apellidoMaterno"><br/>
+		<input type="text" name="apellidoMaterno" required><br/>
 		</div>
 		<div>Usuario:<br/>
-		<input type="text" name="usuario"><br/>
+		<input type="text" name="usuario" required><br/>
 		</div>
 		<div>Contraseña:<br/>
-		<input type="password" name="password" autocomplete="off"><br/>
+		<input type="password" name="password" autocomplete="off" required><br/>
 		</div>
 		<div>
 		<input type="submit" value="Enviar">

@@ -20,16 +20,15 @@
 	<form action="alta.php" method="post">
 		<div class="rgba-primary-3">
 		Titulo:<br/>
-		<input type="text" name="titulo"><br/>
+		<input type="text" name="titulo" required><br/>
 		</div>
 		<div>Autor:<br/>
-		<input type="text" name="autor"><br/>
+		<input type="text" name="autor" required><br/>
 		</div>
 		<div>
-		Fecha de punlicacion:<br/>
-		<input type="date" name="fecha"><br/>
+		Fecha de publicacion:<br/>
+		<input type="date" name="fecha" required><br/>
 		</div>
-		<div>
 		<div>
 		<input type="submit" value="Enviar">
 		</div>
